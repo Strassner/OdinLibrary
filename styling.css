@@ -1,0 +1,33 @@
+.nice-table{
+    margin: auto;
+    width: 75%;
+    border-collapse: collapse;
+}
+
+.nice-table th{
+    color: black;
+    font-weight: bold;
+}
+
+.nice-table th, .nice-table td {
+    border: 1px solid black; 
+    padding: .5rem;
+    text-align: left;
+}
+
+.nice-table .not-read{
+    color: red;
+}
+
+.nice-table .read{
+    color: green;
+}
+
+
+.luke-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom:1rem;
+}
+
