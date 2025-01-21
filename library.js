@@ -30,13 +30,13 @@ function deleteBook(bookIndex){
     displayBooks();
 }
 
-window.onload = function(){
+(() => {
   let book = new Book('The Hobbit', 'J.R.R. Tolkien', 295, true);
   myLibrary.push(book);
   book = new Book('The Fellowship of the Ring', 'J.R.R. Tolkien', 432, true);
   myLibrary.push(book);   
   displayBooks();
-}
+})();
 
 function displayBooks(){
     const table = document.createElement('table');
